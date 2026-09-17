@@ -1,4 +1,4 @@
-<h1 align="center">🍓 NAS Samba Project on Raspberry Pi 5</h1>
+<h1 align="center"> NAS Samba Project on Raspberry Pi 5</h1>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Raspberry%20Pi-5-red?logo=raspberrypi" alt="Raspberry Pi">
@@ -10,13 +10,13 @@
 
 ---
 
-> 🧠 **Project completed in 3 sessions** to design an **autonomous and functional NAS (Network Attached Storage)** using a **Raspberry Pi 5**.
+>  **Project completed in 3 sessions** to design an **autonomous and functional NAS (Network Attached Storage)** using a **Raspberry Pi 5**.
 > The goal was to create a reliable file-sharing service with **Samba**, along with installation, automation, and user management scripts.
-> ⚠️ *All the documentation and tutorials are written in French.*
+>  *All the documentation and tutorials are written in French.*
 
 ---
 
-## 📦 Project Objective
+##  Project Objective
 
 This project transforms a **Raspberry Pi 5** into a **personal NAS** capable of:
 
@@ -27,27 +27,27 @@ This project transforms a **Raspberry Pi 5** into a **personal NAS** capable of:
 
 ---
 
-## 🧠 Why I chose **Samba**
+##  Why I chose **Samba**
 
 I chose **Samba** because it is the **simplest and most universal solution** for sharing files between different operating systems (Windows, Linux, macOS).
 Here are the main reasons behind this choice:
 
-1. 🖥️ **Full Compatibility**
+1.  **Full Compatibility**
    Samba uses the **SMB/CIFS protocol**, the same one used by Windows file sharing.
    This allows seamless access to the NAS from any device on the local network.
 
-2. ⚙️ **Ease of Installation and Management**
+2.  **Ease of Installation and Management**
    Installing Samba is very straightforward (`sudo apt install samba`), and all configuration is handled in a single file (`/etc/samba/smb.conf`).
 
-3. 🔐 **User and Permission Management**
+3.  **User and Permission Management**
    Samba allows secure user creation, precise permission control (read-only, read/write), and the ability to separate public and private directories.
 
-4. 🔄 **Perfect Integration with Linux**
+4.  **Perfect Integration with Linux**
    Samba works smoothly on Raspberry Pi OS (Linux). It is lightweight, reliable, and ideal for a learning or demonstration project.
 
 ---
 
-## 🗂️ Project Structure
+##  Project Structure
 
 ```bash
 Projet-NAS/
@@ -78,24 +78,24 @@ Projet-NAS/
 
 ---
 
-## 🧩 Project Organization
+##  Project Organization
 
 The project was divided into **3 sessions**, each representing a stage of development and documentation.
 
-### 🔹 **Session 1 – Preparation**
+###  **Session 1 – Preparation**
 
 * Installation and initial setup of the Raspberry Pi.
 * Definition of goals and creation of the **project specification**.
-  📄 *See:* `Séance1/Documentation.md`
+   *See:* `Séance1/Documentation.md`
 
 ---
 
-### 🔹 **Session 2 – Development**
+###  **Session 2 – Development**
 
 * Setup of the first Samba shares.
 * Creation of public and private directories.
 * Progress tracking and validation checklists.
-  📄 *See:*
+   *See:*
   `Séance2/Documentation-2.md`
   `Séance2/Checklist.md`
   `Séance2/Suivi-avancement-1.md`
@@ -103,7 +103,7 @@ The project was divided into **3 sessions**, each representing a stage of develo
 
 ---
 
-### 🔹 **Session 3 – Automation and Finalization**
+###  **Session 3 – Automation and Finalization**
 
 * Development of **Bash scripts**:
 
@@ -111,7 +111,7 @@ The project was divided into **3 sessions**, each representing a stage of develo
   * `add_samba_user.sh` → creates a Samba user with a personal private folder.
 * Creation of a **systemd service** for automatic startup at boot.
 * Final documentation and validation of the project.
-  📄 *See:*
+   *See:*
   `Séance3/Tutoriel-Complet.md` *(step-by-step guide)*
   `Séance3/Documentation-3.md`
   `Séance3/Fiche-Recette-NAS.md`
@@ -120,7 +120,7 @@ The project was divided into **3 sessions**, each representing a stage of develo
 
 ---
 
-## 🧰 Global Overview
+##  Global Overview
 
 The configured NAS is:
 
@@ -131,26 +131,26 @@ The configured NAS is:
 
 ---
 
-## 📚 Additional Resources
+##  Additional Resources
 
-* 📝 **Full tutorial:** `Séance3/Tutoriel-Complet.md`
-* 📖 **Project specifications:** `Séance3/Cahier-des-charges-NAS.md`
-* 🧾 **Validation sheet:** `Séance3/Fiche-Recette-NAS.md`
-* 📊 **Gantt chart:** `Séance3/Gantt.md`
-* 🧩 **Scripts:** `Séance3/Scripts/`
+*  **Full tutorial:** `Séance3/Tutoriel-Complet.md`
+*  **Project specifications:** `Séance3/Cahier-des-charges-NAS.md`
+*  **Validation sheet:** `Séance3/Fiche-Recette-NAS.md`
+*  **Gantt chart:** `Séance3/Gantt.md`
+*  **Scripts:** `Séance3/Scripts/`
 
 ---
 
-## 👨‍💻 Author
+## Author
 
 **GitHub:** [@axel-g-dev](https://github.com/axel-g-dev)
 
-> 🧰 Educational project made with **Raspberry Pi 5**, focused on **Linux administration**, **networking**, and **automation**.
-> 📘 *All documentation and comments are written in French.*
+> Educational project made with **Raspberry Pi 5**, focused on **Linux administration**, **networking**, and **automation**.
+> *All documentation and comments are written in French.*
 
 ---
 
-## 🪪 License
+## License
 
 This project is distributed under the **MIT License** — free to use, modify, and share.
 
@@ -165,7 +165,7 @@ Copyright (c) 2025
 
 ---
 
-## 🏷️ Status Badges Used in Documentation
+## Status Badges Used in Documentation
 
 ![In Progress](https://img.shields.io/badge/Status-In%20Progress-yellow)
 ![Not Started](https://img.shields.io/badge/Status-Not%20Started-lightgrey)
